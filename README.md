@@ -1,8 +1,8 @@
 <div align="center">
 
-![ExpenseFlow](https://socialify.git.ci/parsa-faraji/expenseflow/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,11,20&height=200&section=header&text=ExpenseFlow&fontSize=50&fontAlignY=35&desc=Split%20Bills%20%26%20Track%20Expenses&descAlignY=55&animation=twinkling)
 
-# ExpenseFlow
+
 
 A simple, elegant expense tracker and bill splitter. Perfect for roommates, trips, or group dinners.
 
