@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpenseFlow - Split Bills Easily</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <h1>ExpenseFlow</h1>
+            <p>Split bills & track expenses with friends</p>
+        </header>
+
+        <!-- Group Section -->
+        <div class="section">
+            <h2>Group Members</h2>
+            <div class="add-member">
+                <input type="text" id="memberName" placeholder="Enter name">
+                <button id="addMember" class="btn btn-primary">Add</button>
+            </div>
+            <div class="members-list" id="membersList"></div>
+        </div>
+
+        <!-- Add Expense -->
+        <div class="section">
+            <h2>Add Expense</h2>
+            <form id="expenseForm" class="expense-form">
+                <div class="form-group">
+                    <label>Description</label>
+                    <input type="text" id="expenseDesc" placeholder="e.g., Dinner, Groceries" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Amount ($)</label>
+                        <input type="number" id="expenseAmount" placeholder="0.00" step="0.01" min="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Paid by</label>
+                        <select id="paidBy" required>
+                            <option value="">Select person</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Split between</label>
+                    <div class="split-options" id="splitOptions"></div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Add Expense</button>
+            </form>
+        </div>
+
+        <!-- Expenses List -->
+        <div class="section">
+            <h2>Expenses</h2>
+            <div class="expenses-list" id="expensesList">
+                <p class="empty-state">No expenses yet. Add one above!</p>
+            </div>
+            <div class="total-section" id="totalSection" style="display: none;">
+                <div class="total-label">Total</div>
+                <div class="total-amount" id="totalAmount">$0.00</div>
+            </div>
+        </div>
+
+        <!-- Balances -->
+        <div class="section">
+            <h2>Balances</h2>
+            <div class="balances" id="balances">
+                <p class="empty-state">Add members and expenses to see balances</p>
+            </div>
+        </div>
+
+        <!-- Settlements -->
+        <div class="section">
+            <h2>Who Owes Who</h2>
+            <div class="settlements" id="settlements">
+                <p class="empty-state">Add expenses to see settlements</p>
+            </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="actions">
+            <button id="clearAll" class="btn btn-danger">Clear All</button>
+            <button id="exportData" class="btn btn-secondary">Export</button>
+        </div>
+
+        <footer class="footer">
+            <p>Built by <a href="https://github.com/parsa-faraji" target="_blank">Parsa Faraji Alamouti</a></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
