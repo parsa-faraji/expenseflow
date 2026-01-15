@@ -1,17 +1,14 @@
+<div align="center">
+
+![ExpenseFlow](https://socialify.git.ci/parsa-faraji/expenseflow/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Dark)
+
 # ExpenseFlow
 
 A simple, elegant expense tracker and bill splitter. Perfect for roommates, trips, or group dinners.
 
-![ExpenseFlow](https://img.shields.io/badge/Finance-App-green)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
-
-<div align="center">
-
-## Demo
-
-![ExpenseFlow Demo](https://via.placeholder.com/700x400/f8fafc/6366f1?text=ExpenseFlow+Demo)
-
-**[Live Demo](https://parsa-faraji.github.io/expenseflow)**
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge&logo=github)](https://parsa-faraji.github.io/expenseflow)
+[![Finance](https://img.shields.io/badge/Finance-App-green?style=for-the-badge)](https://parsa-faraji.github.io/expenseflow)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 </div>
 
